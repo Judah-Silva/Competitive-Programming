@@ -35,13 +35,5 @@ int main()
 
 bool killingIntent(pair<int, int> a, pair<int, int> b)
 {
-    if (a.first == b.first || a.second == b.second)
-    {
-        return true;
-    }
-    if (abs(a.first - b.first) == abs(a.second - b.second))
-    {
-        return true;
-    }
-    return false;
+    return ((a.first == b.first || a.second == b.second) || (abs(a.first - b.first) == abs(a.second - b.second)));
 }
