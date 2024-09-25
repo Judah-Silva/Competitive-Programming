@@ -3,3 +3,9 @@
 
 # Other VSCode stuff
 .vscode
+
+# Executables
+*.exe
+
+# Files with no extensions (Unix executables)
+**/bin
