@@ -15,9 +15,7 @@ int main() {
 
   sort(sequence.begin(), sequence.end());
 
-  // binary search without searching
+  // binary search without sorting
 
   return 0;
 }
-
-
