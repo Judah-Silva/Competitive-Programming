@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class mathHomework {
+public class mathhomework {
   public static void main(String args[]) {
     Scanner scan = new Scanner(System.in);
     int bird = scan.nextInt();
@@ -23,5 +23,7 @@ public class mathHomework {
     if (!sol) {
       System.out.println("impossible");
     }
+
+    scan.close();
   }
 }

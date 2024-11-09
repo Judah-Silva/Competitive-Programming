@@ -1,6 +1,6 @@
 import java.util.*;
 
-class eenyMeeny {
+class eenymeeny {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     String line = s.nextLine();
@@ -13,6 +13,8 @@ class eenyMeeny {
       String kid = s.nextLine();
       queue.add(kid);
     }
+
+    s.close();
     
     ArrayList<String> team1 = new ArrayList<>();
     ArrayList<String> team2 = new ArrayList<>();

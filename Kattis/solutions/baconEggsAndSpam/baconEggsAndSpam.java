@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class baconeggsandspam {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     int ordersToday = scan.nextInt();
@@ -31,5 +31,7 @@ public class Main {
       ordersToday = scan.nextInt();
       scan.nextLine();
     }
+
+    scan.close();
   }
 }

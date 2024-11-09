@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class Main {
+public class freefood {
   public static void main(String[] args) {
     TreeSet<Integer> set = new TreeSet<>();
     Scanner scanner = new Scanner(System.in);

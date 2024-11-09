@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class cardTrick2 {
+public class cardtrick2 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int n = scanner.nextInt();

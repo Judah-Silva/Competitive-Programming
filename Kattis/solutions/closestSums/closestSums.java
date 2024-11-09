@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class closestSums {
+public class closestsums {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     int n, caseNum = 1;
@@ -32,5 +32,7 @@ public class closestSums {
         System.out.println("Closest sum to " + query + " is " + closestSum + ".");
       }
     }
+
+    scan.close();
   }
 }
